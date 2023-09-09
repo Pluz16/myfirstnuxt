@@ -1,10 +1,21 @@
 <template>
+
+<main>
     <div>
-        <h1>Portfolio di Francesco Punta</h1>
+        <h4>Flessibilità</h4>
     </div>
+    <div>
+        <h4>Adattamento</h4>
+    </div>
+    <div>
+        <h4>Proattività</h4>
+    </div>
+</main>
+
 </template>
 
 <script setup>
+
 
 </script>
 
