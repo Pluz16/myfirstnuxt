@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Progetti sviluppati in {{ id }}</h1>
+        <h1>Progetti sviluppati in <span class="bg-red-200" >{{ id }}</span></h1>
     </div>
 
 

@@ -1,9 +1,7 @@
 <template>
-    <div>
-        <p>Questi progetti sono stati interamente realizzati da mani e cervello</p>
+        <h2>Questi progetti sono stati interamente realizzati da mani e cervello</h2>
 
-        
-    </div>
+        <ul></ul>
 </template>
 
 <script setup>

@@ -1,24 +1,20 @@
 <template>
-    <header>
-    <div>
+    <header class="shadow-sm bg-lime-50">
+    <div class="font-bold p-6">
         <h1>Portfolio di Francesco Punta</h1>
     </div>
 
-    <nav>
-        <ul>
+    <nav class="container mx-auto p-4 flex justify-between">
+        <ul class="flex gap-4">
             <li> <NuxtLink to="/">Home</NuxtLink></li>
             <li> <NuxtLink to="/about">About Me</NuxtLink></li>
-            <li> <NuxtLink to="/developing">Progetti</NuxtLink></li>
-            <li><NuxtLink to="/developing/Js">Js</NuxtLink></li>
-            <li><NuxtLink to="/developing/Vue">Vue</NuxtLink></li>
-            <li><NuxtLink to="/developing/Nuxt">Nuxt</NuxtLink></li>
-            <li><NuxtLink to="/developing/Tailwind">Tailwind</NuxtLink></li>
+            <li> <NuxtLink to="/developing" class="btn">Progetti</NuxtLink></li>
         </ul>
         </nav>
     </header>
 
     <!-- output del contenuto -->
-        <div>
+        <div class="container mx-auto p-4">
             <slot />
             
         </div>
